@@ -11,4 +11,4 @@ else:
     num = 1
 
 # to set output, print to shell in following syntax
-print(f'"num_squared={num ** 2}" >> $GITHUB_OUTPUT')
+print(f'"echo num_squared={num ** 2}" >> $GITHUB_OUTPUT')
